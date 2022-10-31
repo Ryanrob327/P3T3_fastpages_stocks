@@ -1,11 +1,10 @@
 ---
 toc: true
-layout: default
+layout: categories
 description: A minimal example of using markdown with fastpages.
 categories: [test]
 title: Graph Test
 ---
-<div class="home">
 <html>
 <head>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
@@ -62,4 +61,3 @@ window.onload = function () {
 <div id="chartContainer" style="height: 450px; width: 100%;"></div>
 </body>
 </html>
-</div>
