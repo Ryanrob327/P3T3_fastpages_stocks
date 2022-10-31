@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: categories
+layout: post
 description: A minimal example of using markdown with fastpages.
 categories: [test]
 title: Graph Test
