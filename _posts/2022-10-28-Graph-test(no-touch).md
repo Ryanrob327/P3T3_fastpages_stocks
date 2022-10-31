@@ -1,6 +1,6 @@
 ---
 toc: true
-layout: post
+layout: default
 description: A minimal example of using markdown with fastpages.
 categories: [test]
 title: Graph Test
@@ -47,7 +47,7 @@ window.onload = function () {
       }
     }
   });
-  $.getJSON("http://127.0.0.1:5000/api/GME/", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
+  $.getJSON("https://canvasjs.com/data/docs/btcusd2018.json", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
     for(var i = 0; i < data.length; i++){
       dps1.push({x: new Date(data[i].date), y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)]});
       dps2.push({x: new Date(data[i].date), y: Number(data[i].close)});
