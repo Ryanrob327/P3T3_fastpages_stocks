@@ -70,34 +70,8 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Graph Test</h1><p class="page-description">A minimal example of using markdown with fastpages.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-10-28T00:00:00-05:00" itemprop="datePublished">
-        Oct 28, 2022
-      </time>
-       • <span class="read-time" title="Estimated read time">
-    
-    
-      1 min read
-    
-</span></p>
-
-    
-      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
-      
-        <a class="category-tags-link" href="/P3T3_fastpages_stocks/categories/#test">test</a>
-        
-      
-      </p>
-    
-
-    </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <ul id="toc" class="section-nav">
-</ul><body>
-
+        <html>
+<head>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.stock.min.js"></script>
 <script type="text/javascript">
@@ -138,7 +112,7 @@ window.onload = function () {
       }
     }
   });
-  $.getJSON("http://127.0.0.1:5000/api/GME/", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
+  $.getJSON("https://canvasjs.com/data/docs/btcusd2018.json", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
     for(var i = 0; i < data.length; i++){
       dps1.push({x: new Date(data[i].date), y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)]});
       dps2.push({x: new Date(data[i].date), y: Number(data[i].close)});
@@ -147,14 +121,11 @@ window.onload = function () {
   });
 }
 </script>
-
-
+</head>
+<body>
 <div id="chartContainer" style="height: 450px; width: 100%;"></div>
-
-
 </body>
-  </div><a class="u-url" href="/P3T3_fastpages_stocks/test/2022/10/28/Graph-test(no-touch).html" hidden></a>
-</article>
+</html>
 
       </div>
     </main><footer class="site-footer h-card">
