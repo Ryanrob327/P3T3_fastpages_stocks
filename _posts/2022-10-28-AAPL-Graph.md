@@ -1,9 +1,9 @@
 ---
-toc: true
+toc: false
 layout: default
-description: A minimal example of using markdown with fastpages.
-categories: [test]
-title: Graph Test
+description: null
+categories: [stock]
+title: AAPL
 ---
 <html>
 <head>
