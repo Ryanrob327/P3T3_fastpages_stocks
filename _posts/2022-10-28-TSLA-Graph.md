@@ -1,9 +1,9 @@
 ---
-toc: true
+toc: false
 layout: default
-description: A minimal example of using markdown with fastpages.
-categories: [test]
-title: Graph Test
+description: null
+categories: [stock]
+title: TSLA
 ---
 <html>
 <head>
@@ -16,10 +16,10 @@ window.onload = function () {
     theme: "light2",
     exportEnabled: true,
     title:{
-      text:"StockChart with Date-Time Axis"
+      text:"TSLA Stock Price"
     },
     subtitles: [{
-      text: "GME Price (in USD)"
+      text: "(in USD)"
     }],
     charts: [{
       axisX: {
@@ -47,7 +47,7 @@ window.onload = function () {
       }
     }
   });
-  $.getJSON("https://stocks.nighthawkcodescrums.gq/api/GME/", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
+  $.getJSON("https://stocks.nighthawkcodescrums.gq/api/TSLA/", function(data) { //https://canvasjs.com/data docs/btcusd2018.json
     for(var i = 0; i < data.length; i++){
       dps1.push({x: new Date(data[i].date), y: [Number(data[i].open), Number(data[i].high), Number(data[i].low), Number(data[i].close)]});
       dps2.push({x: new Date(data[i].date), y: Number(data[i].close)});
