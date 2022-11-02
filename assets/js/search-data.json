@@ -58,9 +58,20 @@
 
   
   
+      ,"page0": {
+          "title": "Stocks",
+          "content": "",
+          "url": "https://ryanrob327.github.io/P3T3_fastpages_stocks/Stocks/",
+          "relUrl": "/Stocks/",
+          "date": ""
+      }
+      
+  
 
   
-      ,"page1": {
+
+  
+      ,"page2": {
           "title": "Our Mission",
           "content": "",
           "url": "https://ryanrob327.github.io/P3T3_fastpages_stocks/about/",
@@ -78,17 +89,6 @@
   
 
   
-  
-
-  
-      ,"page6": {
-          "title": "Stocks",
-          "content": "",
-          "url": "https://ryanrob327.github.io/P3T3_fastpages_stocks/Stocks/",
-          "relUrl": "/Stocks/",
-          "date": ""
-      }
-      
   
 
   
