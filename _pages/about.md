@@ -4,4 +4,3 @@ title: Our Mission
 permalink: /about/
 ---
 
-T
