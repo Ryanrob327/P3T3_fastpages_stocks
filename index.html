@@ -239,18 +239,23 @@ body, html {
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="static/assets/Unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone" />
+      <img src="static/assets/Unknown.png" style="width:100%" onclick="link('GOOGL')" class="w3-hover-opacity" alt="A microphone" />
     </div>
     <div class="w3-col l3 m6">
-      <img src="static/assets/Tesla.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone" />
+      <img src="static/assets/Tesla.png" style="width:100%" onclick="link('TSLA')" class="w3-hover-opacity" alt="A phone" />
     </div>
     <div class="w3-col l3 m6">
-      <img src="static/assets/GME.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone" />
+      <img src="static/assets/GME.png" style="width:100%" onclick="link('GME')" class="w3-hover-opacity" alt="A drone" />
     </div>
     <div class="w3-col l3 m6">
-      <img src="static/assets/amzn.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox" />
+      <img src="static/assets/amzn.png" style="width:100%" onclick="link('AAPL')" class="w3-hover-opacity" alt="Soundbox" />
     </div>
   </div>
+  <script>
+    function link(stock) {
+      window.location.href="https://ryanrob327.github.io/P3T3_fastpages_stocks/stock/2022/10/28/" + stock + "-Graph.html";  
+    }
+  </script>
 
   
 
