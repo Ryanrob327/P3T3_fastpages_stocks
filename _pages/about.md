@@ -4,6 +4,7 @@ title: Our Mission
 permalink: /about/
 ---
 
+
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">THE TEAM</h3>
